@@ -1,0 +1,7 @@
+.env
+.idea
+.venv
+.terraform
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*

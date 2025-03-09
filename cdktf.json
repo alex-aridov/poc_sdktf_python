@@ -1,0 +1,18 @@
+{
+  "language": "python",
+  "app": "pipenv run python main.py",
+  "projectId": "c955f6d5-206d-40a8-8c06-aa0d8dcc5bf6",
+  "sendCrashReports": "false",
+  "terraformProviders": [],
+  "terraformModules": [
+    {
+      "name": "vpc",
+      "source": "terraform-aws-modules/vpc/aws",
+      "version": "~> 3.0"
+    }
+  ],
+  "codeMakerOutput": "imports",
+  "context": {
+
+  }
+}
