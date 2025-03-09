@@ -5,7 +5,8 @@ Work order:
 Structure:
 1) `main.py` - entrypoint
 2) `cloud` - package with classes to describe cloud infrastructure
-3) `cloud/base` - abstraction model
-4) `cloud/aws` - AWS implementation
+3) `cloud/CloudFactory.py` - key class to choose target platform from environment variable
+4) `cloud/base` - abstraction model
+5) `cloud/aws` - AWS implementation
 
 Generated Terraform code: `cdk.tf` (not beautiful, but it works)
